@@ -1,0 +1,42 @@
+{
+  "build_command": "pnpm run build",
+  "capabilities": [
+    "db",
+    "server",
+    "user"
+  ],
+  "dev_command": "pnpm run dev",
+  "env_vars": {
+    "DATABASE_URL": "mysql://4NJR2TbgH65YCx4.root:fU0tv8iTXwf4Yc6qW0g6@gateway03.us-east-1.prod.aws.tidbcloud.com:4000/FY6PXejVh5ovrobGn4SuaP?ssl={\"rejectUnauthorized\":true}",
+    "DRIZZLE_DATABASE_URL": "mysql://4NJR2TbgH65YCx4.root:fU0tv8iTXwf4Yc6qW0g6@gateway03.us-east-1.prod.aws.tidbcloud.com:4000/FY6PXejVh5ovrobGn4SuaP?ssl={\"rejectUnauthorized\":true}",
+    "MANUS_WEBDEV_PROJECT_ID": "FY6PXejVh5ovrobGn4SuaP"
+  },
+  "experiments": null,
+  "git_remote": {
+    "repo_url": "https://7f0548f6b28a1758d9bf7be630d36cb4.artifacts.cloudflare.net/git/prod/FY6PXejVh5ovrobGn4SuaP.git",
+    "expiration": "2026-08-15T19:33:53.094Z",
+    "token": "art_v2_x_fc5d7ca91e8d6be91f12ee23babbdd4d79d75062?expires=1786822433",
+    "backend": "GIT_BACKEND_ARTIFACTS"
+  },
+  "name": "e-account",
+  "path": "/home/ubuntu/e-account",
+  "port": 3000,
+  "secrets": {
+    "BUILT_IN_FORGE_API_KEY": "FpdHeKNgrDx6YSuHnLD2Em",
+    "BUILT_IN_FORGE_API_URL": "https://forge.manus.ai",
+    "JWT_SECRET": "R6N7PPtQQmo4tieAYcaoEs",
+    "OAUTH_SERVER_URL": "https://api.manus.im",
+    "OWNER_NAME": "Guuled Barqadle",
+    "OWNER_OPEN_ID": "FsEeyLEKAebRvdBkibnoNS",
+    "VITE_ANALYTICS_ENDPOINT": "https://manus-analytics.com",
+    "VITE_ANALYTICS_WEBSITE_ID": "6dbe923a-2dd6-4995-a876-020e129fc3dc",
+    "VITE_APP_ID": "FY6PXejVh5ovrobGn4SuaP",
+    "VITE_APP_LOGO": "https://files.manuscdn.com/user_upload_by_module/web_dev_logo/310519663892865814/tqxOLVQGmsNbRZNr.png",
+    "VITE_APP_TITLE": "e-Account",
+    "VITE_FRONTEND_FORGE_API_KEY": "DXK3D4WrGWRMSh3zTgyPjt",
+    "VITE_FRONTEND_FORGE_API_URL": "https://forge.manus.ai",
+    "VITE_OAUTH_PORTAL_URL": "https://manus.im"
+  },
+  "template_id": "web-static",
+  "test_command": "pnpm test"
+}
